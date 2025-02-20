@@ -10,6 +10,8 @@ export function bulkUpdateItem(items) {console.log('bulkUpdateItem'); const data
 export function bulkDeleteItem(ids) {console.log('bulkDeleteItem'); const data = []; return data}
 
 export function exportFilteredList({filter, sort, pagination}) {console.log('exportFilteredList'); const file = {}; return file}
+export function exportSelectedItem(id) {console.log('exportSelectedItem'); const file = {}; return file}
+
 export function importCreateItems(file) {console.log('importCreateItems'); const data = {}; return data}
 export function importUpdateItems(file) {console.log('importUpdateItems'); const data = {}; return data}
 export function importDeleteItems(file) {console.log('importDeleteItems'); const data = {}; return data}

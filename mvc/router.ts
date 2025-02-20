@@ -15,6 +15,8 @@ router.post("/bulkUpdateItem", controller.bulkUpdateItem);
 router.post("/bulkDeleteItem", controller.bulkDeleteItem);
 
 router.post("/exportFilteredList", controller.exportFilteredList);
+router.post("/exportSelectedItem", controller.exportSelectedItem);
+
 router.post("/importCreateItems", controller.importCreateItems);
 router.post("/importUpdateItems", controller.importUpdateItems);
 router.post("/importDeleteItems", controller.importDeleteItems);

@@ -13,6 +13,8 @@ export function bulkUpdateItem(ctx: RouterContext<"/bulkUpdateItem">) {console.l
 export function bulkDeleteItem(ctx: RouterContext<"/bulkDeleteItem">) {console.log(ctx.params); const data = service.bulkDeleteItem(); return data;}
 
 export function exportFilteredList(ctx: RouterContext<"/exportFilteredList">) {console.log(ctx.params); const data = service.exportFilteredList(); return data;}
+export function exportSelectedItem(ctx: RouterContext<"/exportSelectedItem">) {console.log(ctx.params); const data = service.exportSelectedItem(); return data;}
+
 export function importCreateItems(ctx: RouterContext<"/importCreateItems">) {console.log(ctx.params); const data = service.importCreateItems(); return data;}
 export function importUpdateItems(ctx: RouterContext<"/importUpdateItems">) {console.log(ctx.params); const data = service.importUpdateItems(); return data;}
 export function importDeleteItems(ctx: RouterContext<"/importDeleteItems">) {console.log(ctx.params); const data = service.importDeleteItems(); return data;}

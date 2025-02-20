@@ -170,12 +170,6 @@ export class Collection {
   }
 }
 
-export class CommonSort {
-  orderBy?: {
-    [propName: string]: "asc" | "desc";
-  }[];
-}
-
 export class Record {
   id?: string;
   name?: string;
